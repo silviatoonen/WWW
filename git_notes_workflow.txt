@@ -1,0 +1,35 @@
+option+command+i
+python -m http.server
+
+
+
+
+#access only from other computer 
+git clone git@github.com:silviatoonen/sebaweb.git
+(Forked repository known as 'origin')
+
+
+
+
+ 
+git remote --verbose
+
+===========================================
+
+git pull origin main
+
+# pull all updates from ‘origin/main’ to current branch
+#git pull silviatoonen main
+
+git checkout -b (branch) 
+git add (filename)
+Git commit -m 'text'
+Git checkout main
+
+Git merge (branch)
+Git branch -d (branch)
+
+#Git push --set-upstream upstream (branch)
+
+Git push origin main
+
